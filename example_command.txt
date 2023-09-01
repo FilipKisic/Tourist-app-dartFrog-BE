@@ -1,0 +1,12 @@
+curl --request POST \
+  --url http://localhost:8080/sight \
+  --header 'Content-Type: application/json' \
+  --data '{
+  "name": "Upper Town",
+      "description":
+          "The upper town is full of charm and it gathers a lot of Zagreb interest points such as the Dolac market, St Mark Church, the museum of broken relationships, Kamenita Vrata (Stone gate), and the cathedral (Kaptol).",
+      "address": "10 000 Zagreb",
+      "lat": 45.8147423,
+      "lng": 15.9716824,
+      "rating": 3,
+  }'
