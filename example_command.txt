@@ -8,5 +8,5 @@ curl --request POST \
       "address": "10 000 Zagreb",
       "lat": 45.8147423,
       "lng": 15.9716824,
-      "rating": 3,
+      "rating": 3
   }'

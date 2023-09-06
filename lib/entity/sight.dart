@@ -12,7 +12,7 @@ class Sight {
   final double lng;
   final int rating;
 
-  Sight({
+  const Sight({
     this.id,
     required this.name,
     this.description,
